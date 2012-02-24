@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE80796414F7E7AB0035A0BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE80796314F7E7AB0035A0BB /* UIKit.framework */; };
+		CE80796614F7E7AB0035A0BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE80796514F7E7AB0035A0BB /* Foundation.framework */; };
+		CE80796814F7E7AB0035A0BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE80796714F7E7AB0035A0BB /* CoreGraphics.framework */; };
+		CE80796E14F7E7AB0035A0BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE80796C14F7E7AB0035A0BB /* InfoPlist.strings */; };
+		CE80797014F7E7AB0035A0BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE80796F14F7E7AB0035A0BB /* main.m */; };
+		CE80797414F7E7AC0035A0BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE80797314F7E7AC0035A0BB /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE80795F14F7E7AB0035A0BB /* Hungry Bim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hungry Bim.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE80796314F7E7AB0035A0BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE80796514F7E7AB0035A0BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE80796714F7E7AB0035A0BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE80796B14F7E7AB0035A0BB /* Hungry Bim-Info.plist */ = {isa = PBXFileReference; path = "Hungry Bim-Info.plist"; sourceTree = "<group>"; };
+		CE80796D14F7E7AB0035A0BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE80796F14F7E7AB0035A0BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE80797114F7E7AB0035A0BB /* Hungry Bim-Prefix.pch */ = {isa = PBXFileReference; path = "Hungry Bim-Prefix.pch"; sourceTree = "<group>"; };
+		CE80797214F7E7AC0035A0BB /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE80797314F7E7AC0035A0BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE80795C14F7E7AB0035A0BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE80796414F7E7AB0035A0BB /* UIKit.framework in Frameworks */,
+				CE80796614F7E7AB0035A0BB /* Foundation.framework in Frameworks */,
+				CE80796814F7E7AB0035A0BB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE80795414F7E7AB0035A0BB = {
+			isa = PBXGroup;
+			children = (
+				CE80796914F7E7AB0035A0BB /* Hungry Bim */,
+				CE80796214F7E7AB0035A0BB /* Frameworks */,
+				CE80796014F7E7AB0035A0BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE80796014F7E7AB0035A0BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE80795F14F7E7AB0035A0BB /* Hungry Bim.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE80796214F7E7AB0035A0BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE80796314F7E7AB0035A0BB /* UIKit.framework */,
+				CE80796514F7E7AB0035A0BB /* Foundation.framework */,
+				CE80796714F7E7AB0035A0BB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE80796914F7E7AB0035A0BB /* Hungry Bim */ = {
+			isa = PBXGroup;
+			children = (
+				CE80797214F7E7AC0035A0BB /* AppDelegate.h */,
+				CE80797314F7E7AC0035A0BB /* AppDelegate.m */,
+				CE80796A14F7E7AB0035A0BB /* Supporting Files */,
+			);
+			path = "Hungry Bim";
+			sourceTree = "<group>";
+		};
+		CE80796A14F7E7AB0035A0BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE80796B14F7E7AB0035A0BB /* Hungry Bim-Info.plist */,
+				CE80796C14F7E7AB0035A0BB /* InfoPlist.strings */,
+				CE80796F14F7E7AB0035A0BB /* main.m */,
+				CE80797114F7E7AB0035A0BB /* Hungry Bim-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE80795E14F7E7AB0035A0BB /* Hungry Bim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE80797714F7E7AC0035A0BB /* Build configuration list for PBXNativeTarget "Hungry Bim" */;
+			buildPhases = (
+				CE80795B14F7E7AB0035A0BB /* Sources */,
+				CE80795C14F7E7AB0035A0BB /* Frameworks */,
+				CE80795D14F7E7AB0035A0BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hungry Bim";
+			productName = "Hungry Bim";
+			productReference = CE80795F14F7E7AB0035A0BB /* Hungry Bim.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE80795614F7E7AB0035A0BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Home;
+			};
+			buildConfigurationList = CE80795914F7E7AB0035A0BB /* Build configuration list for PBXProject "Hungry Bim" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE80795414F7E7AB0035A0BB;
+			productRefGroup = CE80796014F7E7AB0035A0BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE80795E14F7E7AB0035A0BB /* Hungry Bim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE80795D14F7E7AB0035A0BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE80796E14F7E7AB0035A0BB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE80795B14F7E7AB0035A0BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE80797014F7E7AB0035A0BB /* main.m in Sources */,
+				CE80797414F7E7AC0035A0BB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE80796C14F7E7AB0035A0BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE80796D14F7E7AB0035A0BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE80797514F7E7AC0035A0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE80797614F7E7AC0035A0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE80797814F7E7AC0035A0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hungry Bim/Hungry Bim-Prefix.pch";
+				INFOPLIST_FILE = "Hungry Bim/Hungry Bim-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE80797914F7E7AC0035A0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hungry Bim/Hungry Bim-Prefix.pch";
+				INFOPLIST_FILE = "Hungry Bim/Hungry Bim-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE80795914F7E7AB0035A0BB /* Build configuration list for PBXProject "Hungry Bim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE80797514F7E7AC0035A0BB /* Debug */,
+				CE80797614F7E7AC0035A0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE80797714F7E7AC0035A0BB /* Build configuration list for PBXNativeTarget "Hungry Bim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE80797814F7E7AC0035A0BB /* Debug */,
+				CE80797914F7E7AC0035A0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE80795614F7E7AB0035A0BB /* Project object */;
+}
