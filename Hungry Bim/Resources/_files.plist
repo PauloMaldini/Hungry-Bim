@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+<dict>		<!-- Concept test book -->
+
+  <array>
+    <string>"_splash.png"</string>
+    <string>"page_01.png"</string>
+    <string>"page_02.png"</string>
+    <string>"page_03.png"</string>
+  </array>
+  
+</dict>
+</plist>

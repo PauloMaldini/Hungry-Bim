@@ -7,25 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE05E6FD150CC19000C98F2E /* GameElements.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE05E6FC150CC19000C98F2E /* GameElements.plist */; };
+		CE08A988150B0AC60024DCEA /* map1.dat in Resources */ = {isa = PBXBuildFile; fileRef = CE08A987150B0AC60024DCEA /* map1.dat */; };
+		CE0E3AA01547B81D0008724A /* CDog.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0E3A9F1547B81D0008724A /* CDog.m */; };
+		CE15C8D614F7E97200A7E8F8 /* CFon.m in Sources */ = {isa = PBXBuildFile; fileRef = CE15C8C914F7E97200A7E8F8 /* CFon.m */; };
+		CE15C8D714F7E97200A7E8F8 /* CMenuElement.m in Sources */ = {isa = PBXBuildFile; fileRef = CE15C8CB14F7E97200A7E8F8 /* CMenuElement.m */; };
+		CE15C8D814F7E97200A7E8F8 /* CSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = CE15C8CD14F7E97200A7E8F8 /* CSprite.m */; };
+		CE15C8D914F7E97200A7E8F8 /* CSpriteStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = CE15C8CF14F7E97200A7E8F8 /* CSpriteStorage.m */; };
+		CE15C8DA14F7E97200A7E8F8 /* CTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE15C8D114F7E97200A7E8F8 /* CTransfer.m */; };
+		CE15C8DB14F7E97200A7E8F8 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE15C8D314F7E97200A7E8F8 /* EAGLView.m */; };
+		CE15C8DC14F7E97200A7E8F8 /* Texture2D.m in Sources */ = {isa = PBXBuildFile; fileRef = CE15C8D514F7E97200A7E8F8 /* Texture2D.m */; };
+		CE15C8E514F7EE7300A7E8F8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE15C8E114F7EE7300A7E8F8 /* AudioToolbox.framework */; };
+		CE15C8E614F7EE7300A7E8F8 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE15C8E214F7EE7300A7E8F8 /* OpenAL.framework */; };
+		CE15C8E714F7EE7300A7E8F8 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE15C8E314F7EE7300A7E8F8 /* OpenGLES.framework */; };
+		CE15C8E814F7EE7300A7E8F8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE15C8E414F7EE7300A7E8F8 /* QuartzCore.framework */; };
+		CE15C8EB14F7F00F00A7E8F8 /* GameElements.png in Resources */ = {isa = PBXBuildFile; fileRef = CE15C8EA14F7F00F00A7E8F8 /* GameElements.png */; };
+		CE1B586F155FF38E0095F1C6 /* map2.dat in Resources */ = {isa = PBXBuildFile; fileRef = CE1B586E155FF38E0095F1C6 /* map2.dat */; };
+		CE1B5872155FF3AC0095F1C6 /* map3.dat in Resources */ = {isa = PBXBuildFile; fileRef = CE1B5871155FF3AC0095F1C6 /* map3.dat */; };
 		CE80796414F7E7AB0035A0BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE80796314F7E7AB0035A0BB /* UIKit.framework */; };
 		CE80796614F7E7AB0035A0BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE80796514F7E7AB0035A0BB /* Foundation.framework */; };
 		CE80796814F7E7AB0035A0BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE80796714F7E7AB0035A0BB /* CoreGraphics.framework */; };
 		CE80796E14F7E7AB0035A0BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE80796C14F7E7AB0035A0BB /* InfoPlist.strings */; };
 		CE80797014F7E7AB0035A0BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE80796F14F7E7AB0035A0BB /* main.m */; };
 		CE80797414F7E7AC0035A0BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE80797314F7E7AC0035A0BB /* AppDelegate.m */; };
+		CE80797B14F7E81B0035A0BB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE80797A14F7E81B0035A0BB /* MainWindow.xib */; };
+		CEFA9DC1153AFAE2004ED73E /* CControlMessageStack.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFA9DBF153AFAE2004ED73E /* CControlMessageStack.m */; };
+		CEFA9DC5153AFAFD004ED73E /* arial.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFA9DC3153AFAFD004ED73E /* arial.png */; };
+		CEFA9DC6153AFAFD004ED73E /* arial.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEFA9DC4153AFAFD004ED73E /* arial.plist */; };
+		CEFA9DC9153B1081004ED73E /* CBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFA9DC8153B1081004ED73E /* CBlock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE05E6FC150CC19000C98F2E /* GameElements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GameElements.plist; sourceTree = "<group>"; };
+		CE08A987150B0AC60024DCEA /* map1.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = map1.dat; sourceTree = "<group>"; };
+		CE0E3A9E1547B81D0008724A /* CDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDog.h; sourceTree = "<group>"; };
+		CE0E3A9F1547B81D0008724A /* CDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDog.m; sourceTree = "<group>"; };
+		CE15C8C814F7E97100A7E8F8 /* CFon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFon.h; sourceTree = "<group>"; };
+		CE15C8C914F7E97200A7E8F8 /* CFon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFon.m; sourceTree = "<group>"; };
+		CE15C8CA14F7E97200A7E8F8 /* CMenuElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMenuElement.h; sourceTree = "<group>"; };
+		CE15C8CB14F7E97200A7E8F8 /* CMenuElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMenuElement.m; sourceTree = "<group>"; };
+		CE15C8CC14F7E97200A7E8F8 /* CSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSprite.h; sourceTree = "<group>"; };
+		CE15C8CD14F7E97200A7E8F8 /* CSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSprite.m; sourceTree = "<group>"; };
+		CE15C8CE14F7E97200A7E8F8 /* CSpriteStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSpriteStorage.h; sourceTree = "<group>"; };
+		CE15C8CF14F7E97200A7E8F8 /* CSpriteStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSpriteStorage.m; sourceTree = "<group>"; };
+		CE15C8D014F7E97200A7E8F8 /* CTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTransfer.h; sourceTree = "<group>"; };
+		CE15C8D114F7E97200A7E8F8 /* CTransfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTransfer.m; sourceTree = "<group>"; };
+		CE15C8D214F7E97200A7E8F8 /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		CE15C8D314F7E97200A7E8F8 /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		CE15C8D414F7E97200A7E8F8 /* Texture2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture2D.h; sourceTree = "<group>"; };
+		CE15C8D514F7E97200A7E8F8 /* Texture2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Texture2D.m; sourceTree = "<group>"; };
+		CE15C8E114F7EE7300A7E8F8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CE15C8E214F7EE7300A7E8F8 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		CE15C8E314F7EE7300A7E8F8 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CE15C8E414F7EE7300A7E8F8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CE15C8EA14F7F00F00A7E8F8 /* GameElements.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameElements.png; sourceTree = "<group>"; };
+		CE1B586E155FF38E0095F1C6 /* map2.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = map2.dat; sourceTree = "<group>"; };
+		CE1B5871155FF3AC0095F1C6 /* map3.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = map3.dat; sourceTree = "<group>"; };
 		CE80795F14F7E7AB0035A0BB /* Hungry Bim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hungry Bim.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE80796314F7E7AB0035A0BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CE80796514F7E7AB0035A0BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE80796714F7E7AB0035A0BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CE80796B14F7E7AB0035A0BB /* Hungry Bim-Info.plist */ = {isa = PBXFileReference; path = "Hungry Bim-Info.plist"; sourceTree = "<group>"; };
+		CE80796B14F7E7AB0035A0BB /* Hungry Bim-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hungry Bim-Info.plist"; sourceTree = "<group>"; };
 		CE80796D14F7E7AB0035A0BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE80796F14F7E7AB0035A0BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CE80797114F7E7AB0035A0BB /* Hungry Bim-Prefix.pch */ = {isa = PBXFileReference; path = "Hungry Bim-Prefix.pch"; sourceTree = "<group>"; };
-		CE80797214F7E7AC0035A0BB /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE80797114F7E7AB0035A0BB /* Hungry Bim-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hungry Bim-Prefix.pch"; sourceTree = "<group>"; };
+		CE80797214F7E7AC0035A0BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE80797314F7E7AC0035A0BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE80797A14F7E81B0035A0BB /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = ../MainWindow.xib; sourceTree = "<group>"; };
+		CEFA9DBE153AFAE2004ED73E /* CControlMessageStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CControlMessageStack.h; path = "Hungry Bim/CControlMessageStack.h"; sourceTree = SOURCE_ROOT; };
+		CEFA9DBF153AFAE2004ED73E /* CControlMessageStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CControlMessageStack.m; path = "Hungry Bim/CControlMessageStack.m"; sourceTree = SOURCE_ROOT; };
+		CEFA9DC0153AFAE2004ED73E /* CWorldGameProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWorldGameProtocol.h; path = "Hungry Bim/CWorldGameProtocol.h"; sourceTree = SOURCE_ROOT; };
+		CEFA9DC3153AFAFD004ED73E /* arial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arial.png; sourceTree = "<group>"; };
+		CEFA9DC4153AFAFD004ED73E /* arial.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = arial.plist; sourceTree = "<group>"; };
+		CEFA9DC7153B1081004ED73E /* CBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBlock.h; sourceTree = "<group>"; };
+		CEFA9DC8153B1081004ED73E /* CBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBlock.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +88,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE15C8E514F7EE7300A7E8F8 /* AudioToolbox.framework in Frameworks */,
+				CE15C8E614F7EE7300A7E8F8 /* OpenAL.framework in Frameworks */,
+				CE15C8E714F7EE7300A7E8F8 /* OpenGLES.framework in Frameworks */,
+				CE15C8E814F7EE7300A7E8F8 /* QuartzCore.framework in Frameworks */,
 				CE80796414F7E7AB0035A0BB /* UIKit.framework in Frameworks */,
 				CE80796614F7E7AB0035A0BB /* Foundation.framework in Frameworks */,
 				CE80796814F7E7AB0035A0BB /* CoreGraphics.framework in Frameworks */,
@@ -42,6 +101,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE15C8E914F7F00F00A7E8F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA9DC3153AFAFD004ED73E /* arial.png */,
+				CEFA9DC4153AFAFD004ED73E /* arial.plist */,
+				CE15C8EA14F7F00F00A7E8F8 /* GameElements.png */,
+				CE05E6FC150CC19000C98F2E /* GameElements.plist */,
+				CE08A987150B0AC60024DCEA /* map1.dat */,
+				CE1B586E155FF38E0095F1C6 /* map2.dat */,
+				CE1B5871155FF3AC0095F1C6 /* map3.dat */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		CE80795414F7E7AB0035A0BB = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +135,10 @@
 		CE80796214F7E7AB0035A0BB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE15C8E114F7EE7300A7E8F8 /* AudioToolbox.framework */,
+				CE15C8E214F7EE7300A7E8F8 /* OpenAL.framework */,
+				CE15C8E314F7EE7300A7E8F8 /* OpenGLES.framework */,
+				CE15C8E414F7EE7300A7E8F8 /* QuartzCore.framework */,
 				CE80796314F7E7AB0035A0BB /* UIKit.framework */,
 				CE80796514F7E7AB0035A0BB /* Foundation.framework */,
 				CE80796714F7E7AB0035A0BB /* CoreGraphics.framework */,
@@ -72,9 +149,32 @@
 		CE80796914F7E7AB0035A0BB /* Hungry Bim */ = {
 			isa = PBXGroup;
 			children = (
+				CEFA9DC7153B1081004ED73E /* CBlock.h */,
+				CEFA9DC8153B1081004ED73E /* CBlock.m */,
+				CE0E3A9E1547B81D0008724A /* CDog.h */,
+				CE0E3A9F1547B81D0008724A /* CDog.m */,
+				CEFA9DBE153AFAE2004ED73E /* CControlMessageStack.h */,
+				CEFA9DBF153AFAE2004ED73E /* CControlMessageStack.m */,
+				CEFA9DC0153AFAE2004ED73E /* CWorldGameProtocol.h */,
+				CE15C8C814F7E97100A7E8F8 /* CFon.h */,
+				CE15C8C914F7E97200A7E8F8 /* CFon.m */,
+				CE15C8CA14F7E97200A7E8F8 /* CMenuElement.h */,
+				CE15C8CB14F7E97200A7E8F8 /* CMenuElement.m */,
+				CE15C8CC14F7E97200A7E8F8 /* CSprite.h */,
+				CE15C8CD14F7E97200A7E8F8 /* CSprite.m */,
+				CE15C8CE14F7E97200A7E8F8 /* CSpriteStorage.h */,
+				CE15C8CF14F7E97200A7E8F8 /* CSpriteStorage.m */,
+				CE15C8D014F7E97200A7E8F8 /* CTransfer.h */,
+				CE15C8D114F7E97200A7E8F8 /* CTransfer.m */,
+				CE15C8D214F7E97200A7E8F8 /* EAGLView.h */,
+				CE15C8D314F7E97200A7E8F8 /* EAGLView.m */,
+				CE15C8D414F7E97200A7E8F8 /* Texture2D.h */,
+				CE15C8D514F7E97200A7E8F8 /* Texture2D.m */,
 				CE80797214F7E7AC0035A0BB /* AppDelegate.h */,
 				CE80797314F7E7AC0035A0BB /* AppDelegate.m */,
+				CE80797A14F7E81B0035A0BB /* MainWindow.xib */,
 				CE80796A14F7E7AB0035A0BB /* Supporting Files */,
+				CE15C8E914F7F00F00A7E8F8 /* Resources */,
 			);
 			path = "Hungry Bim";
 			sourceTree = "<group>";
@@ -142,6 +242,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE80796E14F7E7AB0035A0BB /* InfoPlist.strings in Resources */,
+				CE80797B14F7E81B0035A0BB /* MainWindow.xib in Resources */,
+				CE15C8EB14F7F00F00A7E8F8 /* GameElements.png in Resources */,
+				CE08A988150B0AC60024DCEA /* map1.dat in Resources */,
+				CE05E6FD150CC19000C98F2E /* GameElements.plist in Resources */,
+				CEFA9DC5153AFAFD004ED73E /* arial.png in Resources */,
+				CEFA9DC6153AFAFD004ED73E /* arial.plist in Resources */,
+				CE1B586F155FF38E0095F1C6 /* map2.dat in Resources */,
+				CE1B5872155FF3AC0095F1C6 /* map3.dat in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +262,16 @@
 			files = (
 				CE80797014F7E7AB0035A0BB /* main.m in Sources */,
 				CE80797414F7E7AC0035A0BB /* AppDelegate.m in Sources */,
+				CE15C8D614F7E97200A7E8F8 /* CFon.m in Sources */,
+				CE15C8D714F7E97200A7E8F8 /* CMenuElement.m in Sources */,
+				CE15C8D814F7E97200A7E8F8 /* CSprite.m in Sources */,
+				CE15C8D914F7E97200A7E8F8 /* CSpriteStorage.m in Sources */,
+				CE15C8DA14F7E97200A7E8F8 /* CTransfer.m in Sources */,
+				CE15C8DB14F7E97200A7E8F8 /* EAGLView.m in Sources */,
+				CE15C8DC14F7E97200A7E8F8 /* Texture2D.m in Sources */,
+				CEFA9DC1153AFAE2004ED73E /* CControlMessageStack.m in Sources */,
+				CEFA9DC9153B1081004ED73E /* CBlock.m in Sources */,
+				CE0E3AA01547B81D0008724A /* CDog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,7 +308,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -207,7 +325,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -220,6 +338,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hungry Bim/Hungry Bim-Prefix.pch";
 				INFOPLIST_FILE = "Hungry Bim/Hungry Bim-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -231,6 +350,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hungry Bim/Hungry Bim-Prefix.pch";
 				INFOPLIST_FILE = "Hungry Bim/Hungry Bim-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -255,6 +375,7 @@
 				CE80797914F7E7AC0035A0BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

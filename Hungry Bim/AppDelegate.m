@@ -1,30 +1,31 @@
 //
 //  AppDelegate.m
-//  Hungry Bim
+//  Smart Intuition
 //
-//  Created by Konstantin Tsymbalist on 25.02.12.
+//  Created by Konstantin Tsymbalist on 17.02.12.
 //  Copyright (c) 2012 Home. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "EAGLView.h"
 
 @implementation AppDelegate
 
-@synthesize window = _window;
+@synthesize window;
+@synthesize glView;
 
 - (void)dealloc
 {
-    [_window release];
-    [super dealloc];
+	[window release];
+	[glView release];
+	
+	[super dealloc];
 }
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+- (void) applicationDidFinishLaunching:(UIApplication *)application
 {
-    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    return YES;
+    //sleep(2);
+	[glView startAnimation];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -33,6 +34,26 @@
      Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
      Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
      */
+    [glView stopAnimation];
+}
+
+
+- (void)applicationDidBecomeActive:(UIApplication *)application
+{
+    /*
+     Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+     */
+    [glView startAnimation];
+}
+
+- (void)applicationWillTerminate:(UIApplication *)application
+{
+    /*
+     Called when the application is about to terminate.
+     Save data if appropriate.
+     See also applicationDidEnterBackground:.
+     */
+    [glView stopAnimation];
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
@@ -50,20 +71,5 @@
      */
 }
 
-- (void)applicationDidBecomeActive:(UIApplication *)application
-{
-    /*
-     Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-     */
-}
-
-- (void)applicationWillTerminate:(UIApplication *)application
-{
-    /*
-     Called when the application is about to terminate.
-     Save data if appropriate.
-     See also applicationDidEnterBackground:.
-     */
-}
 
 @end
